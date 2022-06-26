@@ -1,0 +1,83 @@
+/*
+중복시 (셀렉터들의)우선 순위 = tag  << class(.) << id(3) << style
+*/
+
+
+.aboutme{
+    letter-spacing: 1px;
+}
+
+.picture{
+width:100px;
+}
+
+.profile{
+font-size:20px; margin-left:10px;
+}
+
+.color{
+color: blue; background-color: red;
+}
+
+.list{
+font-size:20px; letter-spacing:1px; font-weight:500px;
+}
+
+#red{
+color:red;
+}
+
+span {  /* 모든 span태그 */
+    color:green;
+}
+
+.box{
+    width: 300px;
+    height: 100px;
+    background-color:aqua;
+    margin: 100px;
+    padding:50px;
+    border: 10px solid blue;
+    border-radius:10px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+
+    box-shadow: 10px 20px;
+}
+
+.container{
+    width:800px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.blog-write{
+    width:80%;
+    float:left;
+}
+
+.profile-picture{
+    float:left;
+}
+
+.profile-write{
+    line-height: 10px;
+    padding-top:1px;
+    margin-bottom:40px;
+}
+
+.navbar li{ 
+    display:inline-block;
+    width:60px;
+    text-align:center;
+    background-color:#eee;
+    border-radius:10px;
+    margin-bottom:100px;
+}
+
+.navbar a{
+    font-size:20px;
+    text-decoration:none;
+    color:black;
+}
