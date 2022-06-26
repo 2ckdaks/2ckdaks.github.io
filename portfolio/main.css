@@ -1,0 +1,234 @@
+.iphone-container{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    width:100%;
+    height:400px;
+    padding:1px;
+    display:flex;
+    position:relative;
+}
+
+.iphone-text{
+    width:30%;
+    color:white;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+.iphone-img{
+    width:200px;
+    height:300px;
+    position:absolute;
+    bottom:0px;
+    right:10%;
+}
+
+.main2-container{
+    width:100%;
+    height:300px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.main3-container{
+    width:100%;
+    height:300px;
+    background-color:deepskyblue;
+    text-align: center;
+    padding:10px;
+}
+
+.main3-contents{
+    display:flex;
+    justify-content: center;
+}
+
+.main3-contents>div{
+    margin:30px;
+}
+
+.main4-container{
+    width:80%;
+    height:600px;
+    margin:auto;
+    padding:10px;
+}
+
+.portfolio-container{
+    width:80%;
+    height:800px;
+    margin:auto;
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    color:white;
+}
+
+.pf-1{
+    background-image: url(portfolio-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:50%;
+    height:50%;
+}
+
+.pf-2{
+    background-image: url(portfolio-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:50%;
+    height:50%;
+}
+
+.pf-3{
+    background-image: url(portfolio-3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:50%;
+    height:50%;
+}
+
+.pf-4{
+    background-image: url(portfolio-4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:50%;
+    height:50%;
+}
+
+.pf-text{
+    margin-top:80px;
+    margin-left:20px;
+}
+
+.main4-mark{
+    display: flex;
+    justify-content: center;
+}
+
+.main4-mark>div{
+    margin:30px;
+}
+
+@media screen and (max-width : 576px) {
+    .iphone-container{
+        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        width:100%;
+        min-width:530px;
+        height:800px;
+        padding:1px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .iphone-text{
+        width:30%;
+        color:white;
+        margin-top:50px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    
+    .iphone-img{
+        width:200px;
+        height:300px;
+        margin-right:20%;
+    }
+    
+    .main2-container{
+        width:100%;
+        height:300px;
+        text-align:center;
+        vertical-align:middle;
+    }
+    
+    .main3-container{
+        width:100%;
+        height:900px;
+        background-color:deepskyblue;
+        text-align: center;
+        padding:10px;
+    }
+    
+    .main3-contents{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .main3-contents>div{
+        margin:30px;
+    }
+    
+    .main4-container{
+        width:100%;
+        height:400px;
+        margin:auto;
+        padding:10px;
+    }
+    
+    .portfolio-container{
+        width:90%;
+        height:800px;
+        margin:auto;
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        color:white;
+    }
+    
+    .pf-1{
+        background-image: url(portfolio-1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        width:50%;
+        height:50%;
+    }
+
+    .pf-2{
+        background-image: url(portfolio-2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        width:50%;
+        height:50%;
+    }
+    
+    .pf-3{
+        background-image: url(portfolio-3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        width:50%;
+        height:50%;
+    }
+    
+    .pf-4{
+        background-image: url(portfolio-4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        width:50%;
+        height:50%;
+    }
+    
+    .pf-text{
+        margin-top:80px;
+        margin-left:20px;
+    }
+    
+    .main4-mark{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .main4-mark>div{
+        margin:30px;
+    }
+}
